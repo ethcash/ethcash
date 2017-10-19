@@ -22,7 +22,7 @@ EthCash is a project which was created in January 2017, launched by a group of M
   <li>Number of confirmation : 10</li>
 </ul>
 
-For more information, as well as an immediately useable, binary version of the EthCash Core software, see https://ethereumcash.io
+For more information, as well as an immediately useable, binary version of the EthCash Core software, see https://ethcash.io
 
 <h3>How to mine ?</h3>
 
