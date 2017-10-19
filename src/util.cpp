@@ -1153,12 +1153,16 @@ void createConf()
 						 "\ndaemon=1"
 						 "\nserver=1"
 						 "\nlistenonion=0"
-						 "\naddnode=45.32.108.223"
 					     "\naddnode=node1.ethcash.io"
 						 "\naddnode=node2.ethcash.io"
 						 "\naddnode=node3.ethcash.io"
 						 "\naddnode=node4.ethcash.io"
-						 "\naddnode=node5.ethcash.io";
+						 "\naddnode=node5.ethcash.io"
+						 "\naddnode=node6.ethcash.io"
+						 "\naddnode=node7.ethcash.io"
+						 "\naddnode=node8.ethcash.io"
+						 "\naddnode=node9.ethcash.io"
+						 "\naddnode=node10.ethcash.io";
 	pConf   << std::string("rpcuser=")
  		+  randomStrGen(5)
 		+ std::string("\nrpcpassword=") 
