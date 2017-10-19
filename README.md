@@ -17,7 +17,7 @@ EthCash is a project which was created in January 2017, launched by a group of M
   <li>Total Coin Supply : 100 Million</li>
   <li>Premine : 15% (15 Million)</li>
   <li>Masternode Rewards : 60%</li>
-  <li>Stake : 10 ETHC</li>
+  <li>Stake : 10 ETHCA</li>
   <li>Minimum Stake Age : 8 hours</li>
   <li>Number of confirmation : 10</li>
 </ul>
