@@ -106,6 +106,11 @@ public:
         vSeeds.push_back(CDNSSeedData("3",  "node3.ethcash.io"));
         vSeeds.push_back(CDNSSeedData("4",  "node4.ethcash.io"));
         vSeeds.push_back(CDNSSeedData("5",  "node5.ethcash.io"));
+		vSeeds.push_back(CDNSSeedData("6",  "node6.ethcash.io"));
+        vSeeds.push_back(CDNSSeedData("7",  "node7.ethcash.io"));
+        vSeeds.push_back(CDNSSeedData("8",  "node8.ethcash.io"));
+        vSeeds.push_back(CDNSSeedData("9",  "node9.ethcash.io"));
+        vSeeds.push_back(CDNSSeedData("10", "node10.ethcash.io"));
         convertSeeds(vFixedSeeds, pnSeed, ARRAYLEN(pnSeed), nDefaultPort);
 
         nPoolMaxTransactions = 3;
