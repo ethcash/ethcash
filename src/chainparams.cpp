@@ -81,19 +81,18 @@ public:
         std::vector<CTxOut> vout;
         vout.resize(1);
         vout[0].SetEmpty();
-        CTransaction txNew(1, 1507734000, vin, vout, 0);
+        CTransaction txNew(1, 1508398800, vin, vout, 0);
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1507734000;
+        genesis.nTime    = 1508398800;
         genesis.nBits    = 0x1f00ffff; 
-        genesis.nNonce   = 1328;
+        genesis.nNonce   = 18491;
 
         hashGenesisBlock = genesis.GetHash();
-
-        assert(hashGenesisBlock == uint256("0x00001c4da79ea60dc6b74bf356f57fcc9d4dad2d1f32752cf29b6c6cc7e984e6"));
-        assert(genesis.hashMerkleRoot == uint256("0x6d2e77673374b4941bb46a69df1236f63a82ccd78dbdb0bb2e5bbf069048bbfa"));
+        assert(hashGenesisBlock == uint256("0x000079ec233b9719094dd02e4a25e20526e904a512607d057992833efe515022"));
+        assert(genesis.hashMerkleRoot == uint256("0x70d846c99436cc745791a9ab0ec77b2619750126c576936bbddfd0df1f043105"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,33);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,85);
@@ -156,9 +155,9 @@ public:
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nBits  = 520159231; 
-        genesis.nNonce = 1328;
- 
-        assert(hashGenesisBlock == uint256("0x00001c4da79ea60dc6b74bf356f57fcc9d4dad2d1f32752cf29b6c6cc7e984e6"));
+        genesis.nNonce = 18491;
+   
+        assert(hashGenesisBlock == uint256("0x000079ec233b9719094dd02e4a25e20526e904a512607d057992833efe515022"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
